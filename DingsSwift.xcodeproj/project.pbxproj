@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		66C8586129FF47F3008812A3 /* DingsSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C8586029FF47F3008812A3 /* DingsSwiftApp.swift */; };
-		66C8586329FF47F3008812A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C8586229FF47F3008812A3 /* ContentView.swift */; };
+		66C8586329FF47F3008812A3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C8586229FF47F3008812A3 /* MainView.swift */; };
 		66C8586529FF47F4008812A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C8586429FF47F4008812A3 /* Assets.xcassets */; };
 		66C8586829FF47F4008812A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C8586729FF47F4008812A3 /* Preview Assets.xcassets */; };
 		66C8586A29FF47F4008812A3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C8586929FF47F4008812A3 /* Persistence.swift */; };
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		66C8585D29FF47F3008812A3 /* DingsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DingsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C8586029FF47F3008812A3 /* DingsSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingsSwiftApp.swift; sourceTree = "<group>"; };
-		66C8586229FF47F3008812A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66C8586229FF47F3008812A3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		66C8586429FF47F4008812A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66C8586729FF47F4008812A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66C8586929FF47F4008812A3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				66C8586029FF47F3008812A3 /* DingsSwiftApp.swift */,
-				66C8586229FF47F3008812A3 /* ContentView.swift */,
+				66C8586229FF47F3008812A3 /* MainView.swift */,
 				66C8586429FF47F4008812A3 /* Assets.xcassets */,
 				66C8586929FF47F4008812A3 /* Persistence.swift */,
 				66C8586B29FF47F4008812A3 /* DingsSwift.xcdatamodeld */,
@@ -265,7 +265,7 @@
 			files = (
 				66C8586A29FF47F4008812A3 /* Persistence.swift in Sources */,
 				66C8586D29FF47F4008812A3 /* DingsSwift.xcdatamodeld in Sources */,
-				66C8586329FF47F3008812A3 /* ContentView.swift in Sources */,
+				66C8586329FF47F3008812A3 /* MainView.swift in Sources */,
 				66C8586129FF47F3008812A3 /* DingsSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
